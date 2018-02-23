@@ -1,0 +1,6 @@
+def power(x,y,*others):
+	if others:
+		print 'Received redundant parameters:',others
+    return pow(x,y)
+
+ 
